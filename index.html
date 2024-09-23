@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Raheleh Soltani</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://Linkedin.com" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:rahele2005.rs@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+    <main>
+        <!--SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Raheleh</h2>
+                <p>lorem
+
+                    I am a passionate researcher and linguist
+                    specializing in syntax, language processing,
+                    and cross-linguistic studies. With experience
+                    in experimental design, data analysis, and
+                    computational tools, I focus on understanding
+                    how language is structured and comprehended.
+                    My work bridges cognitive science and
+                    linguistics through innovative,
+                    interdisciplinary research approaches.</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img class="headshot" src="image/hero-headshots.webp" alt="Raheleh Soltani headshots">
+            </div>
+        </section>
+
+        <!--SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I specialize in data analysis, 
+                experimental design, and programming 
+                languages such as Python and R. 
+                My expertise spans linguistics research, 
+                computational tools, and cross-disciplinary 
+                collaboration to solve complex problems.
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="image/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="image/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="image/python-logo.webp" alt="python logo">
+                    <span>PYTHON</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!--SECTION 3: Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="image/testimony-headshot.webp" alt="Rosa">
+                    <p>Rosa</p>
+                    <p>Raheleh is the best</p>
+                </div>
+                <div class="text">
+                    "Raheleh Soltani is a dedicated 
+                    researcher and linguist with an 
+                    exceptional ability to blend 
+                    linguistic theory and data-driven
+                     analysis. Her passion for 
+                     understanding language processing 
+                     and structure shines through 
+                     in her work. Raheleh’s 
+                     interdisciplinary approach, 
+                     combining cognitive science and 
+                     linguistics, brings innovative 
+                     insights to every project she 
+                     undertakes."
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION 4: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    Feel free to reach out for 
+                    collaboration, questions, or 
+                    opportunities. I'm always open 
+                    to discussing new ideas and projects.
+                     You can contact me via email or 
+                     connect with me on LinkedIn 
+                     and GitHub. I look forward to 
+                     hearing from you!
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
